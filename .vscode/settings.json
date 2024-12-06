@@ -1,0 +1,15 @@
+{
+    "flake8.args": [
+        "--config",
+        "setup.cfg"
+    ],
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.defaultInterpreterPath": "${workspaceRoot}/.venv/bin/python3",
+    "python.envFile": "${workspaceFolder}/.env",    
+    "python.terminal.activateEnvironment": true,
+    
+    "[python]": {                
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,        
+    }
+}
